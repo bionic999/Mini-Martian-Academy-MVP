@@ -49,3 +49,56 @@ Ensure you have the following installed:
 - **Angular CLI**: Install globally using:
   ```bash
   npm install -g @angular/cli
+
+  Installation
+1. Clone the repository:
+-git clone https://github.com/your-username/mini-martian-academy-mvp.git
+
+2. Navigate to the project directory:
+-cd Mini-Martian-Academy-MVP/chess-platform
+
+3. Install dependencies:
+-npm install
+
+4. Running the Application
+Start the development server:
+-ng serve
+
+Open your browser and navigate to:
+-http://localhost:4200
+
+Project Structure
+-chess-platform/
+├── src/
+│   ├── app/
+│   │   ├── logic/          # Game logic and piece classes
+│   │   ├── modules/board/  # Chessboard components and styles
+│   │   └── models/         # Data models for the game
+│   ├── assets/             # Static assets
+│   ├── environments/       # Environment configurations
+│   └── main.ts             # Application entry point
+├── angular.json            # Angular project configuration
+├── [package.json](http://_vscodecontentref_/0)            # Project dependencies
+└── README.md               # Project documentation
+
+Contributing
+Contributions are welcome! If you'd like to contribute:
+
+1. Fork the repository.
+2. Create a new branch:
+-git checkout -b feature-name
+
+3. Commit your changes:
+-git commit -m "Add feature"
+
+4. Push to the branch:
+-git push origin feature-name
+
+Open a pull request.
+License
+This project is licensed under the MIT License.
+
+Acknowledgments
+Special thanks to the contributors and the Mini Martian Academy team for their support in building this platform.
+
+
