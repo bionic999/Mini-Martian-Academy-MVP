@@ -4,14 +4,14 @@
   "projects": {
     "my-angular-app": {
       "projectType": "application",
-      "root": "my-angular-app",
+      "root": "chess-platform",
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/my-angular-app",
+            "outputPath": "dist/chess-platform",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -55,11 +55,11 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "my-angular-app:build"
+            "browserTarget": "chess-platform:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "my-angular-app:build:production"
+              "browserTarget": "chess-platform:build:production"
             }
           }
         },
@@ -92,7 +92,7 @@
       }
     }
   },
-  "defaultProject": "my-angular-app",
+  "defaultProject": "chess-platform",
   "cli": {
     "analytics": false
   }
