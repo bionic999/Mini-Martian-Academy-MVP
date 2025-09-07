@@ -70,13 +70,13 @@ Open your browser and navigate to:
 Project Structure
 -chess-platform/
 ├── src/
-│   ├── app/
-│   │   ├── logic/          # Game logic and piece classes
-│   │   ├── modules/board/  # Chessboard components and styles
-│   │   └── models/         # Data models for the game
-│   ├── assets/             # Static assets
-│   ├── environments/       # Environment configurations
-│   └── main.ts             # Application entry point
+│    ├── app/
+│    │    ├── logic/          # Game logic and piece classes
+│    │    ├── modules/board/  # Chessboard components and styles
+│    │    └── models/         # Data models for the game
+│    ├── assets/             # Static assets
+│    ├── environments/       # Environment configurations
+│    └── main.ts             # Application entry point
 ├── angular.json            # Angular project configuration
 ├── [package.json](http://_vscodecontentref_/0)            # Project dependencies
 └── README.md               # Project documentation
