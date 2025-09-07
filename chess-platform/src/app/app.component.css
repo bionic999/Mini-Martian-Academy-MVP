@@ -1,0 +1,21 @@
+/ my-angular-app/my-angular-app/src/app/app.component.css
+
+h1 {
+    color: #2c3e50;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+p {
+    color: #34495e;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ecf0f1;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
