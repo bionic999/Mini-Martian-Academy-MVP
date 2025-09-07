@@ -2,7 +2,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "my-angular-app": {
+    "chess-platform": {
       "projectType": "application",
       "root": "chess-platform",
       "sourceRoot": "src",
@@ -36,7 +36,6 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
               "aot": true,
               "extractLicenses": true,
